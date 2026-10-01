@@ -135,7 +135,7 @@ function home(lang) {
   </main>${footer(lang)}`;
   return shell(
     lang,
-    `${site.name} — ${lang === "en" ? "Ideas into useful things" : "把好奇心做成有用的东西"}`,
+    `${site.name} — ${lang === "en" ? "Ideas into useful things" : "把想法做成能用的东西"}`,
     ui.heroLead,
     localizedPath(lang),
     body,
